@@ -1,0 +1,6 @@
+[
+    { "keys": ["ctrl+7"], "command": "toggle_comment", "args": { "block": false } },
+{ "keys": ["ctrl+shift+7"], "command": "toggle_comment", "args": { "block": true } },
+{ "keys": ["ctrl+t"], "command": "new_file" },
+{ "keys": ["alt+3"], "command": "find_all_under" },
+]
