@@ -1,0 +1,25 @@
+syntax on
+filetype indent plugin on
+set encoding=utf-8
+set nocompatible
+set nu
+set colorcolumn=90
+set fileformat=unix
+"set background=dark
+colorscheme monokai1 "tomorrownight
+
+" Python-specific
+highlight BadWhitespace ctermbg=red guibg=darkred
+au BufRead,BufNewFile *.py,*.pyw,*.c,*.h match BadWhitespace /\s\+$/
+
+set tabstop=4 " Width of a tab is set to 4 spaces
+set softtabstop=4 " http://tedlogan.com/techblog3.html
+set shiftwidth=4 " Indents have a width of 4
+set textwidth=90 " Where to wrap text
+set expandtab " Convert tabs to spaces
+" set autoindent
+" highlight ColorColumn ctermbg=magenta
+call matchadd('ColorColumn', '\%80v', 100)
+if &term == "xterm"
+    set t_Co=256
+endif
