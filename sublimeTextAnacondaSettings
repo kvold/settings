@@ -1,0 +1,15 @@
+{
+    "auto_formatting": true,
+    "autoformat_ignore":
+    [
+        "E501"
+    ],
+    "pep8_ignore":
+    [
+        "E501"
+    ],
+    "anaconda_linter_underlines": true,
+    "anaconda_linter_mark_style": "stippled_underline", //"none",
+    "display_signatures": true,
+    "disable_anaconda_completion": false
+}
