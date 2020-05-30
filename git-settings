@@ -1,0 +1,2 @@
+git config --global alias.c '!git add -A && git commit -m'
+# Example: git c 'example comment'
