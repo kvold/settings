@@ -11,5 +11,6 @@
     "anaconda_linter_underlines": true,
     "anaconda_linter_mark_style": "stippled_underline", //"none",
     "display_signatures": true,
-    "disable_anaconda_completion": false
+    "disable_anaconda_completion": false,
+    "python_interpreter": "python3"
 }
