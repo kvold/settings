@@ -11,7 +11,7 @@
 	],
 	"rulers":
 	[
-		90, 100
+		90, 110
 	],
 	"show_encoding": true,
 	"show_line_endings": true,
@@ -20,5 +20,5 @@
 	"trim_trailing_white_space_on_save": true,
 	"use_tab_stops": true,
 	"word_wrap": true,
-	"wrap_width": 100
+	"wrap_width": 110
 }
